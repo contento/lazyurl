@@ -1,0 +1,10 @@
+tasks:
+  dev:
+    - npm run build-assets
+    - npm run dev
+  start:
+    - npm run build-assets
+    - npm start
+  deploy:
+    - npm run build-assets
+    - npm run deploy
